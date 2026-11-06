@@ -4,8 +4,8 @@
 **Name:** Evergreen Quote API (Phase 3 service delivery)
 **Delivery week:** 3
 **Delivery Lead:** Samuel Ogunyemi
-**Engineering team (represented by):** _link to your Evergreen Quote project repo_
-**GitHub Project board:** _link_
+**Engineering team (represented by):** https://github.com/asc1-student11/evergreen-quote-api-delivery
+**GitHub Project board:** https://github.com/users/asc1-student11/projects/7
 
 ## Who is the customer?
 Our customers are people looking for a quick, clear insurance quote, along with the websites and partner systems that help them get one. A customer may be comparing coveragere, returning to a quote they started earlier, or using another channel such as an agent or partner application. Those experiences need the same dependable quote information instead of each channel calculating or sorting it differently.
