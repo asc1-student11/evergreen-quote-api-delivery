@@ -1,6 +1,4 @@
-# Decision Memo: _short title here_
-
-> Copy to `delivery-leadership-package/decision-memo.md`. Target length: ~250 words. Write for a non-technical reader. Name the options you **rejected**, not just the one you picked.
+# Decision Memo:
 
 **Date:** Tuesday, November 9, 2026  
 **Author:** Samuel Ogunyemi  
@@ -27,3 +25,7 @@ A quote is only useful if its premium is approved and consistent across the API,
 ## What would change my mind
 
 I would reconsider if the sponsor approves a renters rate and confirms by Wednesday morning which planned work should move to make room—without compromising the required tests, CI, or Thursday delivery review.
+
+## Copilot test review
+
+Copilot suggested a test for a quote request that leaves out `coverageAmount`. I reviewed the suggestion, added it to the existing test file, and ran the suite. All eight tests passed, including the new check that the API returns a 400 response. The suggestion fit the existing test pattern and checked a clear outcome. I’d keep this test, while still confirming that the expected response matches the product rules. AI output should not be trusted just because it looks reasonable: the test run gave me evidence that the test works with this service, and CI will run the suite again when changes are pushed.
