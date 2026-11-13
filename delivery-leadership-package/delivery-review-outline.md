@@ -7,11 +7,6 @@
 - **Why:** The API was assembled, tested, containerized, and demonstrated on the local Kubernetes cluster. The reviewed pull request was merged to `main` with green CI.
 
 ## Slide 2: What shipped
-
-- **REST:** The health, list, lookup, create, and validation requests were checked.
-- **GraphQL:** The module was wired into the service and verified through the explorer. _[Add any specific query/mutation results if you want to show them.]_
-- **Tests:** All eight local tests passed, including the missing-coverage-amount test.
-- **Container:** The `evergreen-quote-api:1.0` image built and ran.
 - **Kubernetes:** Three API replicas ran behind the Service with MongoDB. A quote was created through the Service and returned the expected premium of 2700.
 - **CI:** The GitHub Actions run on `delivery/lead` was green. https://github.com/asc1-student11/evergreen-quote-api-delivery/actions/runs/43277710070
 - **Pull request:** https://github.com/asc1-student11/evergreen-quote-api-delivery/pull/12
